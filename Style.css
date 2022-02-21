@@ -1,0 +1,87 @@
+body {
+    background-color:rgba(212,230,254,255);
+    line-height:1.5;
+
+}
+.table {
+    background-color: white;
+    max-width: fit-content;
+    align-items: center; 
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    font-family: Tw Cen MT;
+    font-style: normal;
+    color: blue;
+    border: none;
+}
+::placeholder {
+    font-family: Tw Cen MT;
+    font-style: normal;
+    font-size: 13px;
+    color: rgba(25,30,241,255);
+}
+.name-surname {
+    background-color: rgba(231,233,254,255);
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 48%;
+    height: 40px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+}
+.phone-email {
+    background-color: rgba(220,225,255,255);
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 48%;
+    height: 40px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+}
+.address {
+    background-color: rgba(199,205,253,255);
+    border: none;
+    border-radius: 4px;
+    box-sizing:border-box;
+    width: 100%;
+    height: 40px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+}
+.textarea {
+    background-color: rgba(165,177,253,255);
+    border: none;
+    border-radius: 4px;
+    box-sizing:border-box;
+    width: 100%;
+    height: 80px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+}
+.button {
+    background-color: rgba(35,59,245,255);
+    color: white;
+    border: none;
+    border-radius: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    margin: 0 auto;
+    text-align: center;
+    width: 20%;
+}
+.last {
+    color: rgba(90,218,183,255);
+    border: none;
+}
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+.extra {
+    float: right;
+    position: relative;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <div class="table">
+    <form action="./Form-submit.html">
+        <h1>Get In Touch</h1>
+            <div>
+                <input class="name-surname" required type="text" minlength="2" maxlength="50" size="25" name="First-name" placeholder="First name" />
+                <input class="name-surname extra" required type="text" minlength="2" maxlength="50" size="25" name="Last-name" placeholder="Last name" />
+            </div>
+            <div>
+                <input class="phone-email" required type="email" name="email" size="25" placeholder="Email" /> 
+                <input class="phone-email extra" required type="text" minlength="5" maxlength="12" size="25" pattern="\+?\d+" name="phone" placeholder="Phone" />
+            </div>
+            <div>
+                <input class="address" required type="text" name="address" size="55" placeholder="Address" />
+            </div>
+            <div>
+                <textarea class="textarea" required name="message" rows="4" cols="50" size="50" placeholder="Type your message here" ></textarea>
+            </div>
+            <div class="center">
+                <button class="button">Submit</button>
+            </div>
+            <div class="last">
+                Thanks for submitting!
+            </div>
+        </form>
+    </div>
+</body>
+</html>
